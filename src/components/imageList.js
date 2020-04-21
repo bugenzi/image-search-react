@@ -4,12 +4,12 @@ import ImageCard from './imageCard';
 
 
 const ImageList=(props)=>{
+    //adding for each to ImageCard the prop values of id and image 
 const images=props.image.map((image)=>{
     return(<ImageCard key={image.id} image={image} />  )
     
 })
-   
-    console.log(props.image)
+
 
 
     return(

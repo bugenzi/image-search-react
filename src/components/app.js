@@ -8,7 +8,7 @@ import './app.css'
 
 
 class App extends React.Component{
-    // Set state to be array so I can read the leanght
+    // Set state to be array so I can read the leangth
     state={images:[]};
 
      onSearchSubmit = async(term)=>{
